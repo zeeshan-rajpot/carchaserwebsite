@@ -35,17 +35,17 @@
   }
 
   .Signin-btn {
-	background-color:white;
+	background-color: #F3B755;
 	border-radius:38px;
 	display:inline-block;
 	cursor:pointer;
-    color: var(--primary-color) !important;
+    color: white;
 	font-family:Arial;
 	font-size:16px;
     border: none;
-	padding:10px 140px;
+	padding:10px 70px;
 	text-decoration:none;
-    text-decoration: none;
+
     /* margin-left: 10%; */
 }
 
