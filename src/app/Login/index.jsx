@@ -23,7 +23,7 @@ const Login = () => {
   return (
     <>
     <div className="loginbackground vh-100"
-     style={{ backgroundImage: `url(/loop-cars-concept-collage 1.svg)`,
+     style={{ backgroundImage: `url(/public/Rectangle\ 8.svg)`,
      height: '100vh', // Make sure the container takes the full height of the viewport
         display: 'flex',
         justifyContent: 'center',
