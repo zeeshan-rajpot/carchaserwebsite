@@ -10,3 +10,46 @@ body{
 font-family: 'Glory', sans-serif;
 font-weight: 400;
 }
+
+
+.inputotp{
+  padding:12px 1px 12px 1px !important;
+  border-radius: 1rem;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .login-img{
+      width: 370px !important;
+  }
+  .input-container{
+      width: 95% !important;
+     margin-left: 0% !important;
+
+  }
+  
+  .mobr0{
+      /* border-radius: 2rem !important; */
+      border-bottom-right-radius: 0px !important;
+      border-top-right-radius: 0px !important;
+      }
+  .Signin-btn {
+      background-color: #F3B755;
+      border-radius:38px;
+      display:inline-block;
+      cursor:pointer;
+      color: white;
+      font-family:Arial;
+      font-size:15px;
+      border: none;
+      padding:6px 100px;
+      text-decoration:none;
+      text-decoration: none;
+      margin-left: 0%;
+  }
+
+
+  .mob100{
+      height: 100vh !important;
+  }
+}

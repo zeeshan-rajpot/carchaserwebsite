@@ -34,27 +34,27 @@ const Login = () => {
           <Row className=" rounded-5 ">
             <Col
               md={6}
-              className="  d-flex align-item-center justify-content-center loginbackground rounded-start-5  shadow"
-              style={{height:'75vh'}}
+              className="d-none  d-md-flex align-item-center justify-content-center loginbackground rounded-start-5  shadow"
+              style={{height:'80vh'}}
             >
               <img
                 className="login-img"
                 src="/loop-cars-concept-collage 1.svg"
                 alt="My Image"
-                style={{ objectFit: "" , height:'500px'}}
+                style={{ objectFit: 'contain' , height:'auto'}}
 
               />
             </Col>
             <Col
               md={6}
-              className=" d-flex justify-content-center align-items-center flex-column bg-light  rounded-end-5  shadow "
-              style={{height:'75vh'}}
+              className=" d-flex justify-content-center align-items-center flex-column bg-light  rounded-end-5  shadow mobr0 mob100"
+              style={{height:'80vh'}}
             >
               {/* logo */}
               <img src="/ion_car-sport-outline.svg" alt="" />
               {/* heading */}
               <h1 className="  text-center fw-bold " width="80%">
-                <span className="">Car</span> <span>Cherse</span>
+              <span className="porange">Car</span> <span className="pgreen">Chaser</span>
               </h1>
               <h3
                 className=" mt-2 mb-4 text-center "
@@ -78,8 +78,8 @@ const Login = () => {
               <div className="text-end mt-2" style={{ width: "80%" }}>
                 {/* <p className="text-secondary me-4">Forget Password</p> */}
               </div>
-              <Link to="/Dashbord" onClick={handleInput}>
-                <button className="Signin-btn mt-3 "> Sign In </button>
+              <Link to="/Verification" onClick={handleInput}>
+                <button className="Signin-btn mt-3 ">  Sign In  </button>
               </Link>
 
               <p className=" mt-3">
