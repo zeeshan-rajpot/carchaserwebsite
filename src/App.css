@@ -39,6 +39,49 @@ font-weight: 400;
 }
 
 
+/* chat input */
+
+
+
+#header {
+  position: relative;
+  min-height: 150px;
+}
+
+#header-content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.msgsendinput{
+
+}
+
+.msgsendinput {
+  /* border: 1px solid #ddd; */
+  border-right: none;
+  background: #EBEBEB !important;
+
+  padding-right: 25px; /* Adjust the padding to accommodate the image */
+}
+
+.msgsendinput:focus {
+  outline: none;
+}
+
+.sendimg {
+  position: absolute;
+  top: 50%;
+  right: 5px; /* Adjust the right position as needed */
+  transform: translateY(-50%);
+  height: 18px;
+  width: 19px;
+  border: 1px solid #ddd;
+  border-left: none;
+  cursor: pointer;
+}
+
 @media only screen and (max-width: 600px) {
   .login-img{
       width: 370px !important;
