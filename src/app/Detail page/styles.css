@@ -1,0 +1,25 @@
+.crsl {
+    width: 650px;
+    margin: auto;
+  }
+  
+  .carousel-image-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    max-height: 400px;
+    margin: auto;
+  }
+  
+  .carousel-image-wrapper img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .thumb {
+    height: 50px !important;
+  }
+  .carousel-status{
+    display: none;
+  }
