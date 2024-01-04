@@ -33,7 +33,7 @@ const Chat = () => {
             {/* <p className='my-0' style={ { color: '#515151', fontSize: '16px', fontWeight: '400' } }>of questio You can also select the questions.</p> */}
           </Col>
           <Col lg={6} className="mt-4">
-            <Link to="/Add/Car">
+            <Link to="/Chat/admin">
               <button
                 className="px-5 p-2 rounded-5 border-0 "
                 style={{ backgroundColor: "#F3B755", color: "#FFFFFF " }}

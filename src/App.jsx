@@ -13,6 +13,7 @@ import Notification from './app/Notification';
 import Chat from './app/Chat';
 import Previous from './app/Previous';
 import Recent from './app/Recent';
+import ChatModule from './app/Chat/ChatModule';
 function App() {
   
 
@@ -29,7 +30,7 @@ function App() {
 <Route exact path='/Chat' element={<Chat/>} />
 <Route exact path='/Previous' element={<Previous/>} />
 <Route exact path='/Recent' element={<Recent/>} />
-
+<Route exact path='/Chat/admin' element={<ChatModule/>} />
 <Route exact path='/Add/Car' element={<Steper/>} />
 
 </Routes>
