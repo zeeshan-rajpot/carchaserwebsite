@@ -56,7 +56,7 @@ const Verification = () => {
        {/* otp code code */}
 
 
-<div className="w-50">
+<div className=" wmob100 " style={{width:'50%'}}>
 <OtpInput
      value={otp}
      onChange={setOtp}

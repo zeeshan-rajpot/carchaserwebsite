@@ -12,6 +12,27 @@ font-weight: 400;
 }
 
 
+
+::-webkit-scrollbar {
+  width: 10px;
+  border-radius: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #F3B755;
+
+}
+
+
+
+
 .inputotp{
   padding:12px 1px 12px 1px !important;
   border-radius: 1rem;
@@ -48,7 +69,9 @@ font-weight: 400;
       margin-left: 0%;
   }
 
-
+.wmob100{
+  width: auto !important;
+}
   .mob100{
       height: 100vh !important;
   }

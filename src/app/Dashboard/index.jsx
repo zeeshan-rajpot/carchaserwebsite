@@ -1,15 +1,31 @@
-// import Navbar from "../Components/Navbar"
+import { Col, Container, Row } from "react-bootstrap"
+import Navbar from "../Components/Navbar"
+import RecentCars from "./RecentCars"
+import PreviousCars from "./PreviousCars"
 
 
-// const Dashboard = () => {
-//   return (
-//     <>
+const Dashboard = () => {
+  return (
+    <>
     
-//     <Navbar/>
-    
-//     </>
-//   )
-// }
+    <Navbar
+      link="Dashbord"
+    />
+<Container>
+    <Row>
 
-// export default Dashboard
+        <Col md={9}>
+          <RecentCars/>
+        </Col>
+        <Col md={3} className="shadow" style={{height:'100vh', overflowY:'auto'}}>
+        <PreviousCars/>
+        </Col>
+    </Row>
+</Container>
+
+    </>
+  )
+}
+
+export default Dashboard
 
