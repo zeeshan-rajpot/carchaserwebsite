@@ -3,9 +3,9 @@ import { Col, Container, Row } from "react-bootstrap";
 
 const AllNotif = () => {
     const notifications = [
-        { text: 'This is the 1st notification', time: '12:23 pm' },
-        { text: 'This is the 2nd notification', time: '1:30 pm' },
-        { text: 'This is the 3rd notification', time: '3:45 pm' },
+        { text: 'Your Audi A5 Car is Sold', time: '12:23 pm' },
+        { text: 'Your New Car is Listed', time: '1:30 pm' },
+        { text: 'Welcome to Car Chaser', time: '3:45 pm' },
         // Add more notifications as needed
       ];
   return (

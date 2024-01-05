@@ -4,33 +4,27 @@ import { Col, Container, Row } from "react-bootstrap";
 const Recent = () => {
     const recentCarsData = [
         {
-          imageSrc: "/car2.svg",
-          title: "Volkswagen Altas Exceline",
-          year: "Year",
+          imageSrc: "/mer.png",
+          title: "Mercedes-Benz",
+          year: "2023",
+          description: "Share details to receive a solid offer within minutes.",
+          distance: "20000km",
+        },
+        {
+          imageSrc: "/pngegg.png",
+          title: "Audi A5",
+          year: "2019",
           description: "Share details to receive a solid offer within minutes.",
           distance: "20000km",
         },
         {
           imageSrc: "/car2.svg",
           title: "Volkswagen Altas Exceline",
-          year: "Year",
+          year: "2013",
           description: "Share details to receive a solid offer within minutes.",
           distance: "20000km",
         },
-        {
-          imageSrc: "/car2.svg",
-          title: "Volkswagen Altas Exceline",
-          year: "Year",
-          description: "Share details to receive a solid offer within minutes.",
-          distance: "20000km",
-        },
-        {
-          imageSrc: "/car2.svg",
-          title: "Volkswagen Altas Exceline",
-          year: "Year",
-          description: "Share details to receive a solid offer within minutes.",
-          distance: "20000km",
-        },
+       
         // Add more recent cars data as needed
       ];
   return (
@@ -65,8 +59,8 @@ const Recent = () => {
                   <p style={{ color: "#515151" }}>{car.description}</p>
                   <div className="text-end mt-5">
                     <span
-                      className="text-light py-3 px-5 rounded-start-5 "
-                      style={{ background: "#F3B755" }}
+                      className="text-light py-3 pe-5 rounded-start-5 "
+                      style={{ background: "#F3B755",paddingLeft:'60px' }}
                     >
                       {car.distance}
                     </span>

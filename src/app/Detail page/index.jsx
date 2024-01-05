@@ -1,6 +1,7 @@
 import { Container, Row, Col } from "react-bootstrap";
 import Navbar from "../Components/Navbar";
 import Crousel from "./Crousel";
+import CarSpec from "./CarSpec";
 
 const DetailCar = () => {
   return (
@@ -18,7 +19,7 @@ const DetailCar = () => {
             </Col> 
           <Col md={4}>
 
-            
+            <CarSpec/>
             </Col> 
         </Row>
       </Container>
