@@ -39,7 +39,7 @@ const PreviousCars = () => {
                 <p><b>{data.year}</b></p>
               </div>
               <div>
-                <span className='text-light py-2 px-4 rounded-start-5' style={{ background: '#F3B755' }}>
+                <span className='text-light py-2 px-4 rounded-start-5 text-nowrap ' style={{ background: '#F3B755' }}>
                   {data.km}
                 </span>
               </div>

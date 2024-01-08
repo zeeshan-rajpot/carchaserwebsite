@@ -15,6 +15,7 @@ import Previous from './app/Previous';
 import Recent from './app/Recent';
 import ChatModule from './app/Chat/ChatModule';
 import DetailCar from './app/Detail page';
+import Home from './app/Home/Home';
 function App() {
   
 
@@ -25,7 +26,7 @@ function App() {
 <Route exact path='/Login' element={<Login/>} />
 <Route exact path='/Verification' element={<Verification/>} />
 <Route exact path='/Dashbord' element={<Dashboard/>} />
-<Route exact path='/' element={<Dashboard/>} />
+<Route exact path='/' element={<Home/>} />
 <Route exact path='/DetailCar' element={<DetailCar/>} />
 <Route exact path='/SignUp' element={<SignUp/>} />
 <Route exact path='/Notification' element={<Notification/>} />

@@ -1,0 +1,12 @@
+.contactbtn{
+    border: 1px solid;
+    background: none;
+}
+
+
+.bg-formm{
+    background-image: url('../../../public/bg-formm.svg');
+    background-repeat: no-repeat;
+    background-position:  bottom;
+    height: 100vh;
+}

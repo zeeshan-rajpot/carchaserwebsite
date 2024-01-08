@@ -110,8 +110,16 @@ const Navbar = (props) => {
             <li>
               <div className=" ">
              <Link to='/Notification'>   <img src="/Group 10249.svg" alt="" /></Link>
-                <b>Mohsin </b>
+               
               </div>
+            </li>
+
+            <li className="shadow p-1 rounded-3  porange">
+           
+        
+              
+          <img src="/solar_phone-bold-duotone.svg" alt=""  />   090078601
+             
             </li>
           </ul>
         </div>
